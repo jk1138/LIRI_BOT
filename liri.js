@@ -101,18 +101,20 @@ function read() {
 //=================================================================================================================================================
 switch (command) {
   case "concert-this":
-    if (!concert) {
-      search = "Ariana Grande"
+    if (!search) {
+      search = "Ariana Grande" //default
     }
+    concert();
+    break;
   case "spotify-this-song":
     if (!search) {
-      search = "The Sign"
+      search = "The Sign" //default
     }
     song();
     break;
   case "movie-this":
     if (!search) {
-      search = "Mr. Nobody"
+      search = "Mr. Nobody" //default
 
     }
     console.log(search)
@@ -120,7 +122,7 @@ switch (command) {
     break;
   case "do-what-it-says":
     if (!search) {
-      search = "I Want It That Way"
+      search = "I Want It That Way" //default
     }
     read();
     break;
