@@ -1,5 +1,5 @@
 {
-  "name": "LIRI_BOT",
+  "name": "liri_bot",
   "version": "1.0.0",
   "description": "Create and use a standard GitHub repository. As this is a CLI App, it cannot be deployed to GitHub pages or Heroku. This time you'll need to include screenshots, a GIF, and/or a video showing us that you have the app working with no bugs. You can include these screenshots/GIFs or a link to a video in a `README.md` file.",
   "main": "key.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/jk1138/LIRI_BOT.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jennifer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jk1138/LIRI_BOT/issues"
@@ -23,5 +23,6 @@
     "moment": "^2.24.0",
     "node-spotify-api": "^1.1.1",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {}
 }
