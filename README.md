@@ -39,16 +39,61 @@ Each command produced different search results as listed below:
 
 
 
+### Built with
+
+- [JavaScript] (https://www.javascript.com/) - The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+- [Node.js] (https://nodejs.org/en/)- Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.
+
+#### Node Packages used
+- Dotenv - keep the keys safe
+- Axios - used to nake the http requests
+- Node-Spotify-API - music API
+- Bands in Town API - concert API
+- OMDB API - movie API
+- Moment - date formatter
+- Fs - node file system to read and write to the text files
+
+#### APIs
+- Bandsintown
+- OMDB
+- Spotify
+
+### Functionality
+--- 
+1. concert-this 
+
+*<command, artist name>*
+
+Function takes the userInput (command) and the userQuery(artist), and returns the next concert time and date for that artist, as well as location and city.
+
+######demo gif
+![concert-this demo](./screenshots/concert.gif)
+
+2. spotify-this-song
+
+*<command, song name>*
+
+Function takes the userInput (command) and the userQuery(song), and returns the artist, full track name, a preview link and the album.
+
+######demo gif
+![spotify-this demo](./screenshots/spotify.gif)
+
+3. movie-this
+*<command, movie name>*
+
+Function takes the userInput (command) and the userQuery(song), and returns title, cast, release date, ratings, country of origin, original language and synopsis.
+
+######demo gif
+![movie-this demo](./screenshots/movie.gif)
 
 
-#### 1. concert-this
-![spotify](./screenshots/concert.gif)
+4. do-this
 
-#### 2. spotify-this-song
-![spotify](./screenshots/spotify.gif)
+*<command>*
 
-#### 3. movie-this
-![spotify](./screenshots/movie.gif)
+This function is a wildcard that will randomly select one of the functions and produce a search. The only way to find out what it does is to try!
 
-#### 4. do-what-it-says
-![spotify](./screenshots/read.gif)
+######demo gif
+![do-this demo](./screenshots/read.gif)
+
+
