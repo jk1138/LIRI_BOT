@@ -26,7 +26,7 @@ function concert() {
     function (response) {
       for (var i = 0; i < response.data.length; i++) {
         var date = moment(response.data[0].datetime).format("MM/DD/YYYY");
-        console.log("========================");
+        console.log("================================================");
         console.log("Lineup: " + response.data[i].lineup[i]);
         console.log("Venue is at : " + response.data[i].venue.name + ", in " + response.data[i].venue.city + ", " + response.data[i].venue.region);
         console.log("The date of the event is on: " + date);
@@ -52,7 +52,7 @@ function song() {
     } else {
       var results = data.tracks.items
       for (i = 0; i < results.length; i++) {
-        console.log("========================");
+        console.log("================================================");
         console.log("Artist: " + results[i].artists[0].name);
         console.log("Song Name: " + results[i].name);
         console.log("Follow this Spotify Link: " + results[i].external_urls.spotify);
@@ -71,7 +71,7 @@ function movie() {
 
   axios.get(API2).then(
     function (response) {
-      console.log("========================");
+      console.log("================================================");
       console.log("Title of the Movie: " + response.data.Title);
       console.log("Year Released: " + response.data.Year);
       console.log("IMDB Rating: " + response.data.imdbRating);
@@ -97,12 +97,13 @@ function read() {
 };
 
 //=================================================================================================================================================
-//=========================================== Switch Cases ===================================================================================
+//======================================================== Switch Cases ===========================================================================
 //=================================================================================================================================================
 switch (command) {
   case "concert-this":
-    concert();
-    break;
+    if (!concert) {
+      search = "Ariana Grande"
+    }
   case "spotify-this-song":
     if (!search) {
       search = "The Sign"
