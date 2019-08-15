@@ -1,7 +1,7 @@
 # LIRI Bot App
 
 ## Overview
-In this project I made a LIRI Bot App in Node. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+In this project I made a LIRI Bot App in Node. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data. In this particular LIRI app the user can discover concert venues for their favorite artist, find songs/artist information with a spotify link, and discover rating information about their favorite movies. 
 
 ### Built with
 
@@ -24,7 +24,7 @@ In this project I made a LIRI Bot App in Node. LIRI is like iPhone's SIRI. Howev
 
 ### Functionality
 --- 
-**1**:`concert-this` 
+**1**   `concert-this` 
         
     node liri.js concert-this
         
@@ -32,7 +32,7 @@ This command takes the user search request for artist in the bandsintown api, an
 
 ![concert-this demo](./screenshots/concert.gif)
 
-**2**:`spotify-this-song` 
+**2**   `spotify-this-song` 
         
     node liri.js spotify-this-song
 
@@ -40,7 +40,7 @@ This command takes the user search request for songs/artist in the spotify api, 
 
 ![spotify-this demo](./screenshots/spotify.gif)
 
-**3**:`movie-this` 
+**3**   `movie-this` 
         
     node liri.js movie-this
 
@@ -49,7 +49,7 @@ This command takes the user's search request for movies in the OMDB api, and ret
 ![movie-this demo](./screenshots/movie.gif)
 
 
-**4**: `do-what-it-says` 
+**4**    `do-what-it-says` 
         
     node liri.js do-what-it-says
 
@@ -57,8 +57,5 @@ This command will select the request in the random.txt file and produce a search
 
 ![do-this demo](./screenshots/read.gif)
 
-***************************************************************************************************
-Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-Give a high-level overview of how the app is organized
-Give start-to-finish instructions on how to run the app
-***************************************************************************************************
+
+
