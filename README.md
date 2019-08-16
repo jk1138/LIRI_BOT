@@ -4,6 +4,7 @@
 In this project I made a LIRI Bot App in Node. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data. In this particular LIRI app the user can discover concert venues for their favorite artist, find songs/artist information with a spotify link, and discover rating information about their favorite movies. 
 
 ### Built with
+--- 
 
 - [JavaScript] (https://www.javascript.com/) - The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 - [Node.js] (https://nodejs.org/en/)- Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.
