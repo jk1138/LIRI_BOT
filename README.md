@@ -5,7 +5,6 @@ In this project I made a LIRI Bot App in Node. LIRI is like iPhone's SIRI. Howev
 
 ### Built with
 --- 
-
 - [JavaScript] (https://www.javascript.com/) - The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 - [Node.js] (https://nodejs.org/en/)- Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.
 
